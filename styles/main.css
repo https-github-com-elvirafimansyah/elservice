@@ -3,7 +3,28 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-
+:root {
+    --darkcolor: #2B99FF;
+    --morelight: #9DE2FF;
+    --lightblue: #00C7EE; //blue
+    --whiteblue: #EDF4FA;
+    --darkgray: #334155; // darkgray_parapgraph
+    --lightgray: #F1F1F1;
+    --slightblue: #EBF8FC;
+    --darkblue: #1B2A40; 
+    --white: #fff
+}
+    
 * {
     font-family: 'Inter', sans-serif;
+}
+
+.line-text::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid var(--darkcolor);
+    width: 80px;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: -8px;
 }
