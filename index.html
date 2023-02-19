@@ -28,6 +28,7 @@
           },
           fontSize: {
             title: '50px',
+            mobiletitle: '40px'
         
           }, 
           dropShadow: {
@@ -50,145 +51,124 @@
   </script>
   </head>
   <body class="overflow-x-hidden">
-    <section id="home" >
-      <div class="isolate bg-white h-screen">
-        <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem] lg:left-[70rem] opacity-50 sm:opacity-20 ">
+    <!-- Navbar -->
+    <div class="px-6 pt-6 lg:px-8">
+      <nav id="navbar-home" class="px-2 sm:px-4 fixed py-2.5 w-full z-50 top-0 left-0">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
+          <a href="/" class="flex items-center">
+            <img
+              src="assets/brand.png"
+              class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+          </a>
+          <div class="flex md:order-2">
+            <button type="button"
+              class="text-white bg-darkcolor focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 flex">
+              <iconify-icon icon="logos:whatsapp-icon" width="15" height="15"></iconify-icon>&nbsp;0896 3087 3931
+            </button>
+            <button data-collapse-toggle="navbar-sticky" type="button"
+              class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+              aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+              </svg>
+            </button>
+          </div>
+          <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+            <ul
+              class="flex flex-col p-4 mt-4 rounded-lg bg-gray-50 md:bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 text-white">
+              <li>
+                <a href="#"
+                  class="block py-2 pl-3 pr-4 bg-darkcolor rounded md:bg-transparent md:p-0 font-medium text-white md:text-darkgray"
+                  aria-current="page">Home</a>
+              </li>
+              <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                  class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 rounded font-medium hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-darkcolor md:p-0 md:w-auto">
+                  Layanan Kami
+                  <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                      d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar"
+                  class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-3/4 md:w-44 bg-darkcolor">
+                  <ul class="py-2 text-sm text-white" aria-labelledby="dropdownLargeButton">
+                    <li>
+                      <a href="#" class="block px-4 py-2 hover:bg-blue-500">Jasa Design</a>
+                    </li>
+                  </ul>
+                  <div class="py-1">
+                    <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-blue-500">Jasa Pembuatan Website</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <a href="#"
+                  class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-darkgray hover:bg-gray-100 md:hover:bg-transparent font-medium">Portfolio</a>
+              </li>
+              <li>
+                <a href="#"
+                  class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-darkgray hover:bg-gray-100 md:hover:bg-transparent font-medium">Hubungi
+                  Kami</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+    
+    <!-- Home -->
+    <main>
+      <div class="relative px-6 lg:px-8">
+        <div class="mx-auto max-w-5xl py-60">
+          <div class="text-center flex justify-center items-center flex-col">
+            <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">Jasa Pembuatan <span
+                class="text-darkcolor ">Desain & Website</span> Mudah dan Berkualitas
+            </h1>
+            <p class="mt-6 text-md sm:text-lg  leading-8 text-gray-600 max-w-2xl ">Elservice adalah layanan jasa design dan
+              pembuatan website sederhana profesional, cepat, tepat waktu dan berkualitas.</p>
+            <div class="mt-10 flex items-center justify-center gap-x-6">
+              <a href="#"
+                class="rounded-md bg-darkcolor   px-8 py-3 text-base font-semibold leading-7 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Lihat
+                Paket</a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="absolute inset-x-0 top-[calc(100%-20rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-20 lg:left-[-150rem] sm:opacity-20">
           <svg
-            class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
+            class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
             viewBox="0 0 1155 678" xmlns="http://www.w3.org/2000/svg">
-            <path fill="url(#45de2b6b-92d5-4d68-a6a0-9b9b2abad533)" fill-opacity=".3"
+            <path fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)" fill-opacity=".3"
               d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
             <defs>
-              <linearGradient id="45de2b6b-92d5-4d68-a6a0-9b9b2abad533" x1="1155.49" x2="-78.208" y1=".177" y2="474.645"
+              <linearGradient id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc" x1="1155.49" x2="-78.208" y1=".177" y2="474.645"
                 gradientUnits="userSpaceOnUse">
                 <stop stop-color="#00C7EE" />
-                <stop offset="1" stop-color="#9DE2FF" />
+                <stop offset="1" stop-color="9DE2FF" />
               </linearGradient>
             </defs>
           </svg>
         </div>
-        <!-- Navbar -->
-        <div class="px-6 pt-6 lg:px-8 z-30">
-          <nav id="navbar-home"
-            class="px-2 sm:px-4 py-2.5 fixed w-full top-0 left-0" >
-            <div class="container flex flex-wrap items-center justify-between mx-auto">
-              <a href="/" class="flex items-center">
-                <img src="assets/brand.png" class="h-6 mr-3 sm:h-9" alt="Elservice logo">
-              </a>
-              <div class="flex md:order-2">
-                <button type="button"
-                  class="text-white bg-darkcolor focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-3 md:mr-0 flex"><img src="assets/icon/whatsapp.png
-                  " class="w-5 h-5" alt="whatapps">&nbsp;0896 3087 3931</button>
-                <button data-collapse-toggle="navbar-sticky" type="button"
-                  class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
-                  aria-controls="navbar-sticky" aria-expanded="false">
-                  <span class="sr-only">Open main menu</span>
-                  <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-                      clip-rule="evenodd"></path>
-                  </svg>
-                </button>
-              </div>
-              <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-                <ul
-                  class="flex flex-col p-4 mt-4 rounded-lg bg-gray-50 md:bg-transparent md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 text-white ">
-                  <li>
-                    <a href="#"
-                      class="block py-2 pl-3 pr-4 bg-darkcolor rounded md:bg-transparent md:p-0 font-medium text-white md:text-darkgray "
-                      aria-current="page">Home</a>
-                  </li>
-                  <li>
-                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                      class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 rounded font-medium hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-darkcolor md:p-0 md:w-auto ">Layanan Kami
-                      <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                          clip-rule="evenodd"></path>
-                      </svg></button>
-                    <!-- Dropdown menu -->
-                    <div id="dropdownNavbar"
-                      class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-3/4 md:w-44 bg-darkcolor ">
-                      <ul class="py-2 text-sm text-white " aria-labelledby="dropdownLargeButton">
-                        <li>
-                          <a href="#" class="block  px-4 py-2 hover:bg-blue-500 ">Jasa Design</a>
-                        </li>
-                      </ul>
-                      <div class="py-1">
-                        <a href="#"
-                          class="block px-4 py-2 text-sm text-white hover:bg-blue-500 ">Jasa Pembuatan Website</a>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#" class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-darkgray hover:bg-gray-100 md:hover:bg-transparent font-medium">Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="#"
-                      class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 text-darkgray hover:bg-gray-100 md:hover:bg-transparent font-medium">Hubungi Kami</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        </div>
-         <!-- Navbar End -->
-
-         <!-- Home -->
-        <main>
-          <div class="relative px-6 lg:px-8">
-            <div class="mx-auto max-w-5xl py-48 sm:py-48 lg:py-48">
-              <!-- <div class="hidden sm:mb-8 sm:flex sm:justify-center">
-                <div
-                  class="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                  Announcing our next round of funding. <a href="#" class="font-semibold text-indigo-600"><span
-                      class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
-                </div>
-              </div> -->
-              <div class="text-center flex justify-center items-center flex-col">
-                <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-6xl">Jasa Pembuatan <span class="text-darkcolor ">Desain & Website</span> Mudah dan Berkualitas
-                </h1>
-                <p class="mt-6 text-md sm:text-lg  leading-8 text-gray-600 max-w-2xl ">Elservice adalah layanan jasa design dan pembuatan website sederhana profesional, cepat, tepat waktu dan berkualitas.</p>
-                <div class="mt-10 flex items-center justify-center gap-x-6">
-                  <a href="#"
-                    class="rounded-md bg-darkcolor   px-8 py-3 text-base font-semibold leading-7 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Lihat Paket</a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="absolute inset-x-0 top-[calc(100%-20rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-20 lg:left-[-150rem] sm:opacity-20">
-              <svg
-                class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
-                viewBox="0 0 1155 678" xmlns="http://www.w3.org/2000/svg">
-                <path fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)" fill-opacity=".3"
-                  d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z" />
-                <defs>
-                  <linearGradient id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc" x1="1155.49" x2="-78.208" y1=".177" y2="474.645"
-                    gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#00C7EE" />
-                    <stop offset="1" stop-color="9DE2FF" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-          </div>
-        </main>
-        <!-- Home End-->
       </div>
-    </section>
+    </main>
+    <!-- Home End-->
 
-    <div class="mx-auto container	px-2">
-
-    </div>
 
     <!-- Layanan Kami -->
     <section id="layanan-kami" class="bg-whiteblue py-24">
       <div class="">
         <div class="flex justify-center items-center flex-col">
           <span class="bg-white text-darkcolor uppercase text-sm font-medium px-8 py-3 rounded-full">design & website</span>
-          <h1 class="font-extrabold text-title text-medium text-center">Layanan Kami</h1>
+          <h1 class="font-extrabold text-mobiletitle md:text-title text-medium text-center">Layanan Kami</h1>
           <p class="text-center">Menyediakan berbagai macam layanan desain yang lengkap</p>
         </div>
         <!-- content -->
@@ -285,11 +265,11 @@
 
 
     <!-- Kelebihan -->
-    <section id="kelebihan" class="bg-white py-20" style="background: url(assets/retangle.png) ; background-size: 60%; background-repeat: no-repeat;   background-position: center;  background-position-y: 18rem;">
+    <section id="kelebihan" class="bg-white py-20" style="background: url(assets/rectangle.png) ; background-size: 60%; background-repeat: no-repeat;  background-position: center;  background-position-y: 18rem;">
       <div class="container mx-auto px-2 md:px-4">
         <div class="flex justify-center items-center flex-col">
           <span class="bg-whiteblue text-darkcolor uppercase text-sm font-medium px-8 py-3 rounded-full">kelebihan</span>
-          <h1 class="font-extrabold text-title text-medium text-center">Mengapa harus Elservice?</h1>
+          <h1 class="font-extrabold text-mobiletitle md:text-title text-medium text-center">Mengapa harus Elservice?</h1>
           <p class="text-center">Menyediakan berbagai macam layanan yang lengkap mulai dari desain sampai membuat website</p>
         </div>
         <!-- card row 1-->
@@ -363,7 +343,6 @@
                 <h5 class="text-2xl my-3 font-extrabold tracking-tight text-gray-900">File Lengkap</h5>
               </div>
               <p class="mb-3 font-normal text-darkgray text-justify">File master yang kami berikan lengkap dan mudah dalam melakukan editing.
- 
               </p>
             </div>
 
@@ -391,7 +370,7 @@
     <div class="">
       <div class="flex justify-center items-center flex-col">
         <span class="bg-white text-darkcolor uppercase text-sm font-medium px-8 py-3 rounded-full">proyek</span>
-        <h1 class="font-extrabold text-title text-medium text-center">Portfolio</h1>
+        <h1 class="font-extrabold text-mobiletitle md:text-title text-medium text-center">Portfolio</h1>
         <p class="text-center line-text">Berbagai macam hasil proyek yang telah kami buat</p>
       </div>
       <!-- content -->
@@ -459,7 +438,7 @@
       <div class="container mx-auto px-2 md:px-4">
         <div class="flex justify-center items-center flex-col">
           <span class="bg-whiteblue text-darkcolor uppercase text-sm font-medium px-8 py-3 rounded-full">tutorial</span>
-          <h1 class="font-extrabold text-title text-medium text-center">Cara Pemesanan</h1>
+          <h1 class="font-extrabold text-mobiletitle md:text-title text-medium text-center">Cara Pemesanan</h1>
           <p class="text-center">Berikut adalah proses pemasanan produk design yang anda inginkan</p>
         </div>
          <!-- row 1-->
@@ -549,7 +528,7 @@
     <!-- Tutorial Pemesanan End -->
 
     <!-- Testomoni -->
-    <section id="promosi-1" class="overflow-hidden bg-whiteblue py-24 sm:py-32">
+    <section id="testimoni" class="overflow-hidden bg-whiteblue py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 sm:gap-y-32 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
@@ -691,7 +670,7 @@
           <div class="lg:max-w-lg">
             <span
               class="bg-whiteblue text-darkcolor uppercase text-sm font-medium  mr-2 my-6 px-8 py-3 leading-8 tracking-tight rounded-full ">faq</span>
-            <p class="mt-5 text-3xl font-extrabold tracking-tight text-darkgray sm:text-5xl capitalize">frequently asked questions</p>
+            <p class="mt-5 text-3xl font-extrabold tracking-tight text-darkgray sm:text-5xl capitalize ">frequently asked questions</p>
           </div>
           
           <div id="accordion-color"  class="space-y-2 "data-accordion="collapse"
@@ -748,7 +727,7 @@
             <div>
               <h2 id="accordion-color-heading-3">
                 <button type="button"
-                  class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-blue-200 dark:focus:ring-blue-800 dark:border-gray-700 dark:text-gray-400 hover:bg-blue-100 dark:hover:bg-gray-800"
+                  class="bg-whiteblue flex items-center justify-between w-full p-5 font-medium text-left text-darkgray   rounded-t-lg  hover:bg-whiteblue"
                   data-accordion-target="#accordion-color-body-3" aria-expanded="false" aria-controls="accordion-color-body-3">
                   <span>What are the differences between Flowbite and Tailwind UI?</span>
                   <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20"
@@ -760,19 +739,13 @@
                 </button>
               </h2>
               <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
-                <div class="p-5 font-light border border-t-0 border-gray-200 dark:border-gray-700">
-                  <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from Flowbite are
+                <div class="p-5 font-light border border-t-0 border-gray-200 ">
+                  <p class="mb-2 text-gray-500 ">The main difference is that the core components from Flowbite are
                     open source under the MIT license, whereas Tailwind UI is a paid product. Another difference is that Flowbite
                     relies on smaller and standalone components, whereas Tailwind UI offers sections of pages.</p>
-                  <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite, Flowbite Pro,
+                  <p class="mb-2 text-gray-500 ">However, we actually recommend using both Flowbite, Flowbite Pro,
                     and even Tailwind UI as there is no technical reason stopping you from using the best of two worlds.</p>
-                  <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                  <ul class="pl-5 text-gray-500 list-disc dark:text-gray-400">
-                    <li><a href="https://flowbite.com/pro/" class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite
-                        Pro</a></li>
-                    <li><a href="https://tailwindui.com/" rel="nofollow"
-                        class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                  </ul>
+                  <p class="mb-2 text-gray-500 ">Learn more about these technologies:</p>
                 </div>
               </div>
             </div>
@@ -820,11 +793,6 @@
     </div> -->
     <!-- Promosi 3 End -->
 
-    <section id="test">
-      <h1>test</h1>
-      
-    </section>
- 
     <script src="dist/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
