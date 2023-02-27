@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elservice - Jasa</title>
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="/styles/main.css" rel="stylesheet">
+  <!-- Flowbite -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            darkcolor: '#2B99FF',
+            morelight: '#9DE2FF',
+            lightblue: '#00C7EE', //blue
+            whiteblue: '#EDF4FA',
+            darkgray: '#334155', // darkgray_parapgraph
+            lightgray: '#F1F1F1',
+            slightblue: '#EBF8FC',
+            darkblue: '#1B2A40',
+            smoothgray: "#F6F6F6",
+            white: '#fff',
+            limegreen: "#25D366"
+          },
+          fontSize: {
+            title: '50px',
+            mobiletitle: '40px'
+          },
+          dropShadow: {
+            general: '-15px 0px 65px rgba(55, 55, 55, 0.05)',
+            card: '0px 24px 44px rgba(0, 0, 0, 0.04)',
+            kartu: '0px 24px 44px -8px rgba(0,0,0,0.18)',
+          },
+          boxShadow: {
+            card: '0px 26px 44px -8px rgba(0,0,0,0.09)',
+            general: '-15px 0px 65px rgba(55, 55, 55, 0.05)',
+            kartu: '0px 24px 44px -8px rgba(0,0,0,0.18)',
+            chat: '-20px 25px 65px rgba(55, 55, 55, 0.05)',
+            testi: '0px 48px 100px 0px rgba(17, 12, 46, 0.15)',
+          },
+          padding: {
+            step: '1.63rem'
+          },
+          height: {
+            carousel: '26rem',
+          },
+          borderRadius: {
+            '4xl': '2rem' 
+          },
+          screens: {
+            'tutorial': '2004px'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="overflow-x-hidden">
+  <!-- Testomoni -->
+  <section id="testimoni" class="overflow-hidden bg-whiteblue py-24 sm:py-32">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+      <div class="mx-auto grid max-w-2xl grid-cols-1 gap-y-12 gap-x-8 sm:gap-y-32 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+
+        <div class="lg:pr-8 lg:pt-16">
+          <div class="lg:max-w-lg">
+            <span
+              class="bg-white text-darkcolor uppercase text-sm font-medium  mr-2 my-6 px-8 py-3 leading-8 tracking-tight rounded-full">TERBAIK</span>
+            <p class="mt-5 text-3xl font-extrabold tracking-tight text-darkgray sm:text-5xl capitalize">mengapa harus
+              kami?</p>
+            <p class="text-lg leading-8 text-gray-600 my-6">Kami memiliki beberapa review dari customer kami </p>
+            <button class="my-4"><a href="#"
+                class="leading-7 text-darkcolor bg-white py-4 px-6 rounded-md font-medium">Hubungi Kami</a></button>
+          </div>
+        </div>
+
+        <div>
+          <div id="controls-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="relative h-carousel overflow-hidden z-0" id="testi-parent"></div>
+            <!-- All Items -->
+            <!-- Slider controls -->
+            <button type="button"
+              class="absolute top-0 left-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none"
+              data-carousel-prev>
+              <span class="">
+                <iconify-icon icon="material-symbols:chevron-left-rounded" width="30" height="30"></iconify-icon>
+                <span class="sr-only">Previous</span>
+              </span>
+            </button>
+
+            <button type="button"
+              class="absolute top-0 right-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none"
+              data-carousel-next>
+              <span class="">
+                <iconify-icon icon="material-symbols:chevron-right-rounded" width="30" height="30"></iconify-icon>
+                <span class="sr-only">Next</span>
+              </span>
+            </button>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+  <!-- Testimoni End -->
+
+  
+  <script src="dist/js/main.js"></script>
+  <script src="dist/js/testi.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
+</body>
+</html>
