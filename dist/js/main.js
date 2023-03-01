@@ -1,3 +1,4 @@
+
 // navbar fixed top scroll 
 document.addEventListener("scroll", function () {
   const navbar = document.querySelector("#navbar-home");
