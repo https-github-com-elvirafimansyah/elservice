@@ -3,6 +3,7 @@ export function portoUI(data, container) {
   data.forEach((item) => {
     const div_parent = document.createElement("div");
     div_parent.classList.add(`${item.category}`)
+    div_parent.setAttribute("note", `${item.note}`)
     div_parent.innerHTML = `
       <img src="${item.url}" class="rounded-md max-w-full h-auto" />
     `
@@ -18,19 +19,20 @@ export function modalDetail(images, img_src, chat_element, html_element, testi_e
       chat_element.classList.add('hidden');
       html_element.classList.add("overflow-hidden");
       testi_element.classList.add("hidden");
-      imgModal(img_src, container_e, chat_element, html_element, testi_element)
+      imgModal(img_src, container_e, chat_element, html_element, testi_element, img)
     })
   })
 }
 
-export function imgModal(src, container_e, chat_element, html_element, testi_element) {
+export function imgModal(src, container_e, chat_element, html_element, testi_element, img_e) {
   const modal = document.createElement("div");
   modal.setAttribute("class", "fixed top-0 left-0 z-99 w-screen h-screen bg-black/70 flex justify-center items-center ")
   container_e.append(modal);
+  // Modal Img
   const modalImg = document.createElement("img");
-  modalImg.setAttribute("class", "sm:w-3/4  lg:w-1/2")
+  modalImg.setAttribute("class", `sm:w-3/4 ${img_e.getAttribute("note") === "vertical" ? "lg:w-1/3 mt-5" : "lg:w-1/2"}`)
   modalImg.setAttribute("src", src)
-
+  // Close Modal
   const closeModal = document.createElement("button");
   closeModal.setAttribute("class", "absolute top-14 right-3 md:top-28 lg:top-20 md:right-5 ")
   closeModal.innerHTML = `
