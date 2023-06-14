@@ -44,7 +44,7 @@ export function imgModal(src, container_e, chat_element, html_element, testi_ele
     modal.remove();
     html_element.classList.remove("overflow-hidden");
     chat_element.classList.remove('hidden');
-    testi_element.classList.add("hidden");
+    testi_element.classList.remove("hidden");
   })
   modal.append(modalImg, closeModal)
 };
