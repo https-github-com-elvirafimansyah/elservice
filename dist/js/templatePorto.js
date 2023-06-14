@@ -46,5 +46,20 @@ export function imgModal(src, container_e, chat_element, html_element, testi_ele
     chat_element.classList.remove('hidden');
     testi_element.classList.remove("hidden");
   })
-  modal.append(modalImg, closeModal)
+
+  // Order Button
+  const orderBtn = document.createElement("a");
+  orderBtn.setAttribute("class", "bg-white shadow-chat pr-[5.5rem] pl-8 py-5 fixed right-10 bottom-10 rounded-4xl text-darkcolor font-medium")
+  orderBtn.setAttribute("href", "https://wa.me/62089636406145?text=hello")
+  orderBtn.innerHTML = `
+    Pesan Template Ini
+    <div class="absolute -top-1 -right-2">
+      <div class="bg-limegreen flex items-center justify-center w-[4.5rem] h-[4.5rem] rounded-full">
+        <iconify-icon icon="ic:baseline-whatsapp" class="text-white" width="40" height="40"></iconify-icon>
+      </div>
+    </div>
+  `
+
+  // Apply
+  modal.append(modalImg, closeModal, orderBtn)
 };
