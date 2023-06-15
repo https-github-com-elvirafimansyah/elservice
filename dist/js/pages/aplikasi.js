@@ -11,31 +11,31 @@ const data_gambar = [
   id: "2",
   url: "../../assets/portfolio/mobile/dmobile2.png",
   category: "mobile",
-  note: "harizontal"
+  type: "harizontal"
 },
 {
   id: "3",
   url: "../../assets/portfolio/mobile/dmobile3.png",
   category: "mobile",
-  note: "harizontal"
+  type: "harizontal"
 },
 {
   id: "4",
   url: "../../assets/portfolio/mobile/dmobile4.png",
   category: "mobile",
-  note: "harizontal"
+  type: "harizontal"
 },
 {
   id: "5",
   url: "../../assets/portfolio/mobile/dmobile5.png",
   category: "mobile",
-  note: "harizontal"
+  type: "harizontal"
 },
 {
   id: "6",
   url: "../../assets/portfolio/mobile/dmobile6.png",
   category: "mobile",
-  note: "harizontal"
+  type: "harizontal"
 },
 ]
 

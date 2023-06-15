@@ -5,31 +5,31 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/website/dweb1.png",
     category: "website",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "2",
     url: "../../assets/portfolio/website/dweb2.png",
     category: "website",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "3",
     url: "../../assets/portfolio/website/dweb3.png",
     category: "website",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "4",
     url: "../../assets/portfolio/website/dweb4.png",
     category: "website",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "5",
     url: "../../assets/portfolio/website/dweb5.png",
     category: "website", 
-    note: "harizontal"
+    type: "harizontal"
   },
 ]
 

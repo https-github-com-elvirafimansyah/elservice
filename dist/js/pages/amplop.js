@@ -5,43 +5,43 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/amplop/damplop1.png",
     category: "amplop",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "2",
     url: "../../assets/portfolio/amplop/damplop2.png",
     category: "amplop", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "3",
     url: "../../assets/portfolio/amplop/damplop3.png",
     category: "amplop",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "4",
     url: "../../assets/portfolio/amplop/damplop4.png",
     category: "amplop", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "5",
     url: "../../assets/portfolio/amplop/damplop5.png",
     category: "amplop", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "6",
     url: "../../assets/portfolio/amplop/damplop6.png",
     category: "amplop",
-    note: "harizontal"
+    type: "harizontal"
   }, 
   {
     id: "7",
     url: "../../assets/portfolio/amplop/damplop7.png",
     category: "amplop",
-    note: "harizontal"
+    type: "harizontal"
   }
 ]
 

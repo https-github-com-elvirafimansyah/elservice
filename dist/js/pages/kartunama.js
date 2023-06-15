@@ -5,43 +5,43 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/cardname/dcardname1.png",
     category: "cardname",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "2",
     url: "../../assets/portfolio/cardname/dcardname2.png",
     category: "cardname", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "3",
     url: "../../assets/portfolio/cardname/dcardname3.png",
     category: "cardname",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "4",
     url: "../../assets/portfolio/cardname/dcardname4.png",
     category: "cardname", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "5",
     url: "../../assets/portfolio/cardname/dcardname5.png",
     category: "cardname",  
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "6",
     url: "../../assets/portfolio/cardname/dcardname6.png",
     category: "cardname", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "7",
     url: "../../assets/portfolio/cardname/dcardname7.png",
     category: "cardname",  
-    note: "harizontal"
+    type: "harizontal"
   },
 ]
 

@@ -5,37 +5,43 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/brochure/dbrochure1.png",
     category: "brosur",
-    note: "vertical"
+    type: "vertical",
+    theme: "RedMacha"
   },
   {
     id: "2",
     url: "../../assets/portfolio/brochure/dbrochure2.png",
     category: "brosur",
-    note: "vertical"
+    type: "vertical",
+    theme: "BlueMacha"
   },
   {
     id: "3",
     url: "../../assets/portfolio/brochure/dbrochure3.png",
     category: "brosur", 
-    note: "vertical"
+    type: "vertical",
+    theme: "TosqaDesber"
   },
   {
     id: "4",
     url: "../../assets/portfolio/brochure/dbrochure4.png",
     category: "brosur", 
-    note: "vertical"
+    type: "vertical",
+    theme: "BlueCesber"
   },
   {
     id: "5",
     url: "../../assets/portfolio/brochure/dbrochure5.png",
     category: "brosur", 
-    note: "vertical"
+    type: "vertical",
+    theme: "SoftenBright"
   },
   {
     id: "6",
     url: "../../assets/portfolio/brochure/dbrochure6.png",
     category: "brosur",
-    note: "harizontal"
+    type: "harizontal",
+    theme: "DiamondsRay"
   },
 ]
 

@@ -26,15 +26,14 @@
             darkblue: '#1B2A40',
             smoothgray: "#F6F6F6",
             white: '#fff',
-            limegreen: "#25D366",
-            blue: "#00C7EE",
+            limegreen: "#25D366"
           },
           fontSize: {
             title: '50px',
             mobiletitle: '40px'
           },
           dropShadow: {
-            general: '-15px 0px 65px rgba(55, 55, 55, 0.05)',
+            general: '-15px 0px 65px rgba(55, 55, 55, 0.08)',
             card: '0px 24px 44px rgba(0, 0, 0, 0.04)',
             kartu: '0px 24px 44px -8px rgba(0,0,0,0.18)',
           },
@@ -43,7 +42,7 @@
             general: '-15px 0px 65px rgba(55, 55, 55, 0.05)',
             kartu: '0px 24px 44px -8px rgba(0,0,0,0.18)',
             chat: '-20px 25px 65px rgba(55, 55, 55, 0.05)',
-            testi: '0px 48px 100px 0px rgba(17, 12, 46, 0.15)',
+            testi: '10px 24px 44px -8px rgba(0,0,0,0.18)',
           },
           padding: {
             step: '1.63rem'
@@ -52,7 +51,20 @@
             carousel: '26rem',
           },
           borderRadius: {
-            '4xl': '2rem'
+            '4xl': '2rem' 
+          },
+          screens: {
+            'tutorial': '2004px'
+          },
+          animation: {
+            modal: '500ms modal',
+          },
+          keyframes: {
+            'modal': {
+              '0%': {transform: 'scale(0)'},
+              '100%': {transform: 'scale(1)'}
+              
+            }
           }
         }
       }
@@ -569,7 +581,7 @@
         <p class="text-center ">Lihat proyek-proyek yang pernah kami buat!</p>
       </div>
       <div class="my-5 mx-auto" style="max-width: 85%;" >
-        <div class="grid grid-cols-2 md:grid-cols-3 gap-3" id="porto_gambar">
+        <div class="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-3" id="porto_gambar">
           
         </div>
       </div>

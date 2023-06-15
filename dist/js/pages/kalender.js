@@ -5,31 +5,31 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/calendar/dcalendar1.png",
     category: "calendar",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "2",
     url: "../../assets/portfolio/calendar/dcalendar2.png",
     category: "calendar", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "3",
     url: "../../assets/portfolio/calendar/dcalendar3.png",
     category: "calendar",
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "4",
     url: "../../assets/portfolio/calendar/dcalendar4.png",
     category: "calendar", 
-    note: "harizontal"
+    type: "harizontal"
   },
   {
     id: "5",
     url: "../../assets/portfolio/calendar/dcalendar5.png",
     category: "calendar",  
-    note: "harizontal"
+    type: "harizontal"
   },
 
 ]
