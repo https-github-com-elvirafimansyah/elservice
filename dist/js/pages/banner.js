@@ -5,37 +5,49 @@ const data_gambar = [
   id: "1",
   url: "../../assets/portfolio/banner/dbanner1.png",
   category: "banner",
-  note: "horizontal",
+  type: "horizontal",
+  theme: "Photon",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Photon?'
 },
 {
   id: "2",
   url: "../../assets/portfolio/banner/dbanner2.png",
   category: "banner",
-  note: "horizontal",
+  type: "horizontal",
+  theme: "Cipher ",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Cipher?'
 },
 {
   id: "3",
   url: "../../assets/portfolio/banner/dbanner3.png",
   category: "banner",
-  note: "horizontal",
+  type: "horizontal",
+  theme: "Mirage",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Mirage?'
 },
 {
   id: "4",
   url: "../../assets/portfolio/banner/dbanner4.png",
   category: "banner",
-  note: "horizontal",
+  type: "horizontal",
+  theme: "Rebellion",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Rebellion?'
 },
 {
   id: "5",
   url: "../../assets/portfolio/banner/dbanner5.png",
   category: "banner",
-  note: "horizontal",
+  type: "horizontal",
+  theme: "Vortex",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Vortex?'
 },
 {
   id: "6",
   url: "../../assets/portfolio/banner/dbanner6.png",
   category: "banner",
-  note: "horizontal",
+  type: "horizontal",
+  theme: "Blade",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Blade?'
 },
 ]
 

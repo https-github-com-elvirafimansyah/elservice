@@ -5,6 +5,7 @@ export function portoUI(data, container) {
     div_parent.classList.add(`${item.category}`)
     div_parent.setAttribute("type", `${item.type}`);
     div_parent.setAttribute("theme", `${item.theme}`)
+    div_parent.setAttribute('note', `${item.note}`)
     div_parent.innerHTML = `
       <img src="${item.url}" class="rounded-md max-w-full h-auto" />
     `
@@ -33,7 +34,7 @@ export function imgModal(src, container_e, chat_element, html_element, testi_ele
   container_e.append(modal);
   // Modal Img
   const modalImg = document.createElement("img");
-  modalImg.setAttribute("class", `sm:w-3/4 ${img_e.getAttribute("type") === "vertical" ? "lg:w-1/3 md:w-3/5 mt-5"  : "lg:w-1/2"}`)
+  modalImg.setAttribute("class", `sm:w-3/4 ${img_e.getAttribute("type") === "vertical" ? "lg:w-1/3 md:w-3/5 mt-5"  : "lg:w-1/2 lg:mt-10"}`)
   modalImg.setAttribute("src", src)
   // Caption Text
   const captionText = document.createElement("p");
@@ -57,18 +58,28 @@ export function imgModal(src, container_e, chat_element, html_element, testi_ele
 
   // Order Button
   const orderBtn = document.createElement("a");
-  orderBtn.setAttribute("class", "bg-white shadow-chat pr-[5rem] pl-6 py-4 fixed right-10 bottom-10 rounded-2xl text-darkcolor font-medium ")
-  orderBtn.setAttribute("href", "https://wa.me/62089636406145?text=hello")
+  const noteText = img_e.getAttribute("note");
+  // konversi plain text ke encode 
+  let space_string,
+  line_break,
+  wa_url;
+  space_string = noteText.replace(/ /g, "%20");
+  line_break = space_string.replace(/(\r\n|\n|\r)/gm, "%0A");
+  console.log(line_break)
+  wa_url = `https://wa.me/62089636406145?text=${line_break}`
+  // order ui
+  orderBtn.setAttribute("class", "bg-white shadow-chat pr-[5rem] pl-6 py-4 fixed right-5 bottom-5 md:right-10 md:bottom-10 rounded-2xl text-darkcolor font-medium ")
+  orderBtn.setAttribute("href", `${wa_url}`)
   orderBtn.setAttribute("target", "_blank")
   orderBtn.innerHTML = `
     <div class="flex items-center">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart " viewBox="0 0 16 16">
-      <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-    </svg> &nbsp;&nbsp;
-      <p class="text-sm">Pesan <br> Tema  ${img_e.getAttribute("theme")}</p>
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart " viewBox="0 0 16 16">
+        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+      </svg>&nbsp;&nbsp;
+      <p class="text-sm">Pesan Tema <br> ${img_e.getAttribute("theme")}</p>
     </div>
-    <div class="absolute -top-1 -right-2">
-      <div class="bg-limegreen flex items-center justify-center w-[4.5rem] h-[4.5rem] rounded-full">
+    <div class="absolute -top-1 -right-3">
+      <div class="bg-limegreen flex items-center justify-center w-[5rem] h-[5rem] rounded-full">
         <iconify-icon icon="ic:baseline-whatsapp" class="text-white" width="40" height="40"></iconify-icon>
       </div>
     </div>

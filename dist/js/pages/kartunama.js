@@ -5,43 +5,57 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/cardname/dcardname1.png",
     category: "cardname",
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Clyde",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Clyde?'
   },
   {
     id: "2",
     url: "../../assets/portfolio/cardname/dcardname2.png",
     category: "cardname", 
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Maxie",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Maxie?'
   },
   {
     id: "3",
     url: "../../assets/portfolio/cardname/dcardname3.png",
     category: "cardname",
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Aluxes",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Aluxes?'
   },
   {
     id: "4",
     url: "../../assets/portfolio/cardname/dcardname4.png",
     category: "cardname", 
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Heral",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Heral?'
   },
   {
     id: "5",
     url: "../../assets/portfolio/cardname/dcardname5.png",
     category: "cardname",  
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Knight",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Knight?'
   },
   {
     id: "6",
     url: "../../assets/portfolio/cardname/dcardname6.png",
     category: "cardname", 
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Aocean",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Aocean?'
   },
   {
     id: "7",
     url: "../../assets/portfolio/cardname/dcardname7.png",
     category: "cardname",  
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Kithunder",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Kithunder?'
   },
 ]
 

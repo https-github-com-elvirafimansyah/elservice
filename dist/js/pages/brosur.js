@@ -6,42 +6,48 @@ const data_gambar = [
     url: "../../assets/portfolio/brochure/dbrochure1.png",
     category: "brosur",
     type: "vertical",
-    theme: "RedMacha"
+    theme: "Aberforth",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Hecadoth?'
   },
   {
     id: "2",
     url: "../../assets/portfolio/brochure/dbrochure2.png",
     category: "brosur",
     type: "vertical",
-    theme: "BlueMacha"
+    theme: "Bulltaro",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Bulltaro?'
   },
   {
     id: "3",
     url: "../../assets/portfolio/brochure/dbrochure3.png",
     category: "brosur", 
     type: "vertical",
-    theme: "TosqaDesber"
+    theme: "Califax",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Califax?'
   },
   {
     id: "4",
     url: "../../assets/portfolio/brochure/dbrochure4.png",
     category: "brosur", 
     type: "vertical",
-    theme: "BlueCesber"
+    theme: "Darlton",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Darlton?'
   },
   {
     id: "5",
     url: "../../assets/portfolio/brochure/dbrochure5.png",
     category: "brosur", 
     type: "vertical",
-    theme: "SoftenBright"
+    theme: "Empathy",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Empathy?'
   },
   {
     id: "6",
     url: "../../assets/portfolio/brochure/dbrochure6.png",
     category: "brosur",
     type: "harizontal",
-    theme: "DiamondsRay"
+    theme: "Franklin",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Franklin?'
   },
 ]
 

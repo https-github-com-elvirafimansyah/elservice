@@ -5,37 +5,49 @@ const data_gambar = [
   id: "1",
   url: "../../assets/portfolio/mobile/dmobile1.png",
   category: "mobile",
-  note:"harizontal"
+  note:"harizontal",
+  theme: "Hecadoth",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Hecadoth?'
 },
 {
   id: "2",
   url: "../../assets/portfolio/mobile/dmobile2.png",
   category: "mobile",
-  type: "harizontal"
+  type: "harizontal",
+  theme: "Endora",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Endora?'
 },
 {
   id: "3",
   url: "../../assets/portfolio/mobile/dmobile3.png",
   category: "mobile",
-  type: "harizontal"
+  type: "harizontal",
+  theme: "Enchantra",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Enchantra?'
 },
 {
   id: "4",
   url: "../../assets/portfolio/mobile/dmobile4.png",
   category: "mobile",
-  type: "harizontal"
+  type: "harizontal",
+  theme: "Asmodeus",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Asmodeus?'
 },
 {
   id: "5",
   url: "../../assets/portfolio/mobile/dmobile5.png",
   category: "mobile",
-  type: "harizontal"
+  type: "harizontal",
+  theme: "Vixis",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Vixis?'
 },
 {
   id: "6",
   url: "../../assets/portfolio/mobile/dmobile6.png",
   category: "mobile",
-  type: "harizontal"
+  type: "harizontal",
+  theme: "Tachyon",
+  note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Tachyon?'
 },
 ]
 

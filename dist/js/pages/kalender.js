@@ -5,31 +5,41 @@ const data_gambar = [
     id: "1",
     url: "../../assets/portfolio/calendar/dcalendar1.png",
     category: "calendar",
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Azure",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Azure?'
   },
   {
     id: "2",
     url: "../../assets/portfolio/calendar/dcalendar2.png",
     category: "calendar", 
-    type: "harizontal"
+    type: "harizontal",
+    theme: "BlazBlue ",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema BlazBlue?'
   },
   {
     id: "3",
     url: "../../assets/portfolio/calendar/dcalendar3.png",
     category: "calendar",
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Retro",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Retro?'
   },
   {
     id: "4",
     url: "../../assets/portfolio/calendar/dcalendar4.png",
     category: "calendar", 
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Malefic",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Malefic?'
   },
   {
     id: "5",
     url: "../../assets/portfolio/calendar/dcalendar5.png",
     category: "calendar",  
-    type: "harizontal"
+    type: "harizontal",
+    theme: "Hivolt",
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Hivolt?'
   },
 
 ]
