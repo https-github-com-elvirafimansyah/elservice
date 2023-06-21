@@ -7,7 +7,7 @@ export function portoUI(data, container) {
     div_parent.setAttribute("theme", `${item.theme}`)
     div_parent.setAttribute('note', `${item.note}`)
     div_parent.innerHTML = `
-      <img src="${item.url}" class="rounded-md max-w-full h-auto" />
+      <img src="${item.url}" class="rounded-md max-w-full h-auto mb-3" />
     `
     container.appendChild(div_parent)
   })
@@ -29,7 +29,7 @@ export function modalDetail(images, img_src, chat_element, html_element, testi_e
 export function imgModal(src, container_e, chat_element, html_element, testi_element, img_e) {
   const modal = document.createElement("div");
   const modalContent = document.createElement("div");
-  modalContent.setAttribute("class", "flex justify-center items-center flex-col")
+  modalContent.setAttribute("class", "flex justify-center items-center flex-col ")
   modal.setAttribute("class", "fixed top-0 left-0 z-99 w-screen h-screen bg-black/80 flex justify-center items-center animate-modal")
   container_e.append(modal);
   // Modal Img
@@ -68,7 +68,7 @@ export function imgModal(src, container_e, chat_element, html_element, testi_ele
   console.log(line_break)
   wa_url = `https://wa.me/62089636406145?text=${line_break}`
   // order ui
-  orderBtn.setAttribute("class", "bg-white shadow-chat pr-[5rem] pl-6 py-4 fixed right-5 bottom-5 md:right-10 md:bottom-10 rounded-2xl text-darkcolor font-medium ")
+  orderBtn.setAttribute("class", `bg-white shadow-chat pr-[5rem] pl-6 py-4 fixed md:right-10 md:bottom-10 rounded-2xl text-darkcolor font-medium right-5 bottom-5`)
   orderBtn.setAttribute("href", `${wa_url}`)
   orderBtn.setAttribute("target", "_blank")
   orderBtn.innerHTML = `

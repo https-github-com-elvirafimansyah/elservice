@@ -7,7 +7,7 @@ const data_gambar = [
     category: "calendar",
     type: "harizontal",
     theme: "Azure",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Azure?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kalender - tema Azure?'
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ const data_gambar = [
     category: "calendar", 
     type: "harizontal",
     theme: "BlazBlue ",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema BlazBlue?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kalender - tema BlazBlue?'
   },
   {
     id: "3",
@@ -23,7 +23,7 @@ const data_gambar = [
     category: "calendar",
     type: "harizontal",
     theme: "Retro",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Retro?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kalender - tema Retro?'
   },
   {
     id: "4",
@@ -31,7 +31,7 @@ const data_gambar = [
     category: "calendar", 
     type: "harizontal",
     theme: "Malefic",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Malefic?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kalender - tema Malefic?'
   },
   {
     id: "5",
@@ -39,7 +39,7 @@ const data_gambar = [
     category: "calendar",  
     type: "harizontal",
     theme: "Hivolt",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Hivolt?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kalender - tema Hivolt?'
   },
 
 ]

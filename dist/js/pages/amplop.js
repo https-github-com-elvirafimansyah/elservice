@@ -7,7 +7,7 @@ const data_gambar = [
     category: "amplop",
     type: "harizontal",
     theme: "Aria",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Aria?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Aria?'
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ const data_gambar = [
     category: "amplop", 
     type: "harizontal",
     theme: "Beelze",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Beelze?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Beelze?'
   },
   {
     id: "3",
@@ -23,7 +23,7 @@ const data_gambar = [
     category: "amplop",
     type: "harizontal",
     theme: "Clesber",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Clesber?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Clesber?'
   },
   {
     id: "4",
@@ -31,7 +31,7 @@ const data_gambar = [
     category: "amplop", 
     type: "harizontal",
     theme: "Dominac",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Dominac?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Dominac?'
   },
   {
     id: "5",
@@ -39,7 +39,7 @@ const data_gambar = [
     category: "amplop", 
     type: "harizontal",
     theme: "Elfen",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Elfen?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Elfen?'
   },
   {
     id: "6",
@@ -47,7 +47,7 @@ const data_gambar = [
     category: "amplop",
     type: "harizontal",
     theme: "Fabas",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Fabas?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Fabas?'
   }, 
   {
     id: "7",
@@ -55,7 +55,7 @@ const data_gambar = [
     category: "amplop",
     type: "harizontal",
     theme: "Graphel",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Graphel?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain amplop - tema Graphel?'
   }
 ]
 

@@ -7,7 +7,7 @@ const data_gambar = [
     category: "cardname",
     type: "harizontal",
     theme: "Clyde",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Clyde?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Clyde?'
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ const data_gambar = [
     category: "cardname", 
     type: "harizontal",
     theme: "Maxie",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Maxie?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Maxie?'
   },
   {
     id: "3",
@@ -23,7 +23,7 @@ const data_gambar = [
     category: "cardname",
     type: "harizontal",
     theme: "Aluxes",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Aluxes?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Aluxes?'
   },
   {
     id: "4",
@@ -31,7 +31,7 @@ const data_gambar = [
     category: "cardname", 
     type: "harizontal",
     theme: "Heral",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Heral?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Heral?'
   },
   {
     id: "5",
@@ -39,7 +39,7 @@ const data_gambar = [
     category: "cardname",  
     type: "harizontal",
     theme: "Knight",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Knight?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Knight?'
   },
   {
     id: "6",
@@ -47,7 +47,7 @@ const data_gambar = [
     category: "cardname", 
     type: "harizontal",
     theme: "Aocean",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Aocean?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Aocean?'
   },
   {
     id: "7",
@@ -55,7 +55,7 @@ const data_gambar = [
     category: "cardname",  
     type: "harizontal",
     theme: "Kithunder",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Kithunder?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kartu nama - tema Kithunder?'
   },
 ]
 

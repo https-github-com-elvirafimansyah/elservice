@@ -7,7 +7,7 @@ const data_gambar = [
     category: "website",
     type: "harizontal",
     theme: "Alfred",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Alfred?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain website - tema Alfred?'
   },
   {
     id: "2",
@@ -15,7 +15,7 @@ const data_gambar = [
     category: "website",
     type: "harizontal",
     theme: "Beatrice",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Beatrice?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain website - tema Beatrice?'
   },
   {
     id: "3",
@@ -23,7 +23,7 @@ const data_gambar = [
     category: "website",
     type: "harizontal",
     theme: "Chemor",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Chemor?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain website - tema Chemor?'
   },
   {
     id: "4",
@@ -31,7 +31,7 @@ const data_gambar = [
     category: "website",
     type: "harizontal",
     theme: "Dorothy",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Dorothy?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain website - tema Dorothy?'
   },
   {
     id: "5",
@@ -39,7 +39,7 @@ const data_gambar = [
     category: "website", 
     type: "harizontal",
     theme: "Edgar",
-    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Edgar?'
+    note: 'Selamat pagi/siang/malam, saya mau pesan/order desain website - tema Edgar?'
   },
 ]
 
