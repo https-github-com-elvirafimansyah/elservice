@@ -13,6 +13,22 @@ export function portoUI(data, container) {
   })
 }
 
+// template porto ui website
+export function portoWebUI(data, container) {
+  data.forEach((item) => {
+    const div_parent = document.createElement("div");
+    div_parent.classList.add(`${item.category}`)
+    div_parent.setAttribute("type", `${item.type}`);
+    div_parent.setAttribute("theme", `${item.theme}`)
+    div_parent.setAttribute('note', `${item.note}`)
+    div_parent.innerHTML = `
+      <img src="${item.url}" class="rounded-md max-w-full h-auto mb-3" />
+      <a href="${item.link}" target="blank" class="text-center text-darkcolor flex justify-center mb-3">${item.link}</a>
+    `
+    container.appendChild(div_parent)
+  })
+}
+
 // modal detail image
 export function modalDetail(images, img_src, chat_element, html_element, testi_element, container_e) {
   images.forEach((img) => {
