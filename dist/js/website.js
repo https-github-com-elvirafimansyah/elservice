@@ -34,7 +34,7 @@ const data_gambar = [
     category: "website",
     type: "",
     theme: "",
-    link: "https://eldesign5.netlify.app/",
+    link: "https://eldesign2.netlify.app/",
     note: 'Selamat pagi/siang/malam, saya mau pesan/order desain brosur - tema Empathy?'
   },
   {
@@ -43,7 +43,7 @@ const data_gambar = [
     category: "website",
     type: "",
     theme: "",
-    link: "https://eldesign5.netlify.app/",
+    link: "https://eldesign4.netlify.app/",
     note: 'Selamat pagi/siang/malam, saya mau pesan/order desain kalender - tema Azure?'
   }
 ]

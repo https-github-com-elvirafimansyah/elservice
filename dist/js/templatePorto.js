@@ -22,8 +22,7 @@ export function portoWebUI(data, container) {
     div_parent.setAttribute("theme", `${item.theme}`)
     div_parent.setAttribute('note', `${item.note}`)
     div_parent.innerHTML = `
-      <img src="${item.url}" class="rounded-md max-w-full h-auto mb-3" />
-      <a href="${item.link}" target="blank" class="text-center text-darkcolor flex justify-center mb-3">${item.link}</a>
+      <a href="${item.link}" target="_blank"><img src="${item.url}" class="rounded-md max-w-full h-auto mb-3" /></a>
     `
     container.appendChild(div_parent)
   })
