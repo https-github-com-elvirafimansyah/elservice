@@ -51,11 +51,5 @@ const data_gambar = [
 const porto_gambar = document.getElementById("porto_gambar");
 portoWebUI(data_gambar, porto_gambar)
 
-// Modal Detail Image
-const images = porto_gambar.querySelectorAll(".website");
-const chat_btn = document.getElementById("chat-btn");
-const testi_card = document.getElementById("controls-carousel");
-const body = document.querySelector("html")
-let img_src;
 
 

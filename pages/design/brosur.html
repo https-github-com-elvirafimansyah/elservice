@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elservice - Desain Brosur</title>
+  <title>Servirn - Desain Brosur</title>
   <link rel="icon" href="../../assets/icon/logo.png" type="image/png">
   <link href="/dist/output.css" rel="stylesheet">
   <link href="/styles/main.css" rel="stylesheet">
@@ -154,7 +154,7 @@
   <!-- Home -->
   <section id="home">
     <div class="relative px-6 lg:px-8 h-screen">
-      <div class="mx-auto max-w-5xl py-36">
+      <div class="mx-auto max-w-5xl flex flex-col h-screen justify-center items-center">
         <div class="mb-4 sm:mb-8 flex justify-center items-center">
           <div
             class="bg-whiteblue text-darkcolor uppercase text-sm font-medium  mr-2 px-8 py-2 leading-7 tracking-tight rounded-full">
@@ -167,13 +167,12 @@
           </h1>
           <p class="mt-6 text-md sm:text-lg  leading-8 text-gray-600 max-w-3xl ">Layanan jasa desain brosur
             berkualitas dan dikerjakan oleh tim yang profesional.</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
+          <div class="mt-10 flex flex-col md:flex-row items-center justify-center gap-x-6 gap-y-6">
             <a href="#"
-              class="rounded-md  px-8 py-3 text-base font-semibold leading-7 text-darkcolor border border-darkcolor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Hubungi
-              Kami</a>
-            <a href="#paket"
-              class="rounded-md bg-darkcolor   px-8 py-3 text-base font-semibold leading-7 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Lihat
-              Paket</a>
+              class="rounded-md  px-8 py-3 text-base font-semibold leading-7 text-darkcolor border border-darkcolor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Hubungi Kami</a>
+              <a href="#paket"
+                class="rounded-md bg-darkcolor   px-8 py-3 text-base font-semibold leading-7 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Lihat
+                Paket</a>
           </div>
         </div>
       </div>
@@ -208,7 +207,7 @@
             <span class="bg-white text-darkcolor uppercase text-sm font-medium px-8 py-3 rounded-full">kelebihan</span>
             <p class="mt-8 text-3xl font-extrabold tracking-tight text-darkgray sm:text-5xl">Mengapa harus Desain
               brosur yang profesional?</p>
-            <p class="text-lg leading-8 text-gray-600 my-6 ">Elservice menawarkan layanan desain brosur berkualitas
+            <p class="text-lg leading-8 text-gray-600 my-6 ">Servirn menawarkan layanan desain brosur berkualitas
               tinggi. Penting untuk mempertimbangkan desain brosur yang baik dan memilih yang sesuai dengan merek atau perusahaan Anda. Berikut ini adalah beberapa manfaat
               tambahan dari desain brosur berkualitas:</p>
             <dl class="mb-6 max-w-xl space-y-6 text-base  text-gray-600 lg:max-w-none">
@@ -514,7 +513,7 @@
         <div>
           <div class="space-y-6">
             <div class="flex justify-center items-center w-full h-full flex-col">
-              <div class="bg-whiteblue relative h-full w-9/12 md:w-10/12 md:space-y-3 space-y-2 rounded-xl">
+              <div class="bg-whiteblue relative h-full w-full md:w-10/12 md:space-y-3 space-y-2 rounded-xl">
                 <div class="p-7 md:space-y-3 space-y-1.5">
                   <h2 class="text-darkcolor font-black text-3xl">01</h2>
                   <h2 class="font-extrabold text-3xl">Up to Date</h2>
@@ -525,7 +524,7 @@
               </div>
             </div>
             <div class="flex justify-center items-center w-full h-full flex-col">
-              <div class="bg-whiteblue relative h-full w-9/12 md:w-10/12 md:space-y-3 space-y-2 rounded-xl">
+              <div class="bg-whiteblue relative h-full w-full md:w-10/12 md:space-y-3 space-y-2 rounded-xl">
                 <div class="p-7 md:space-y-3 space-y-1.5">
                   <h2 class="text-darkcolor font-black text-3xl">02</h2>
                   <h2 class="font-extrabold text-3xl">Original</h2>
@@ -536,7 +535,7 @@
               </div>
             </div>
             <div class="flex justify-center items-center w-full h-full flex-col">
-              <div class="bg-whiteblue relative h-full w-9/12 md:w-10/12 md:space-y-3 space-y-2 rounded-xl">
+              <div class="bg-whiteblue relative h-full w-full md:w-10/12 md:space-y-3 space-y-2 rounded-xl">
                 <div class="p-7 md:space-y-3 space-y-1.5">
                   <h2 class="text-darkcolor font-black text-3xl">03</h2>
                   <h2 class="font-extrabold text-3xl">Cepat</h2>
@@ -594,14 +593,13 @@
         </div>
 
         <div>
-          <div id="controls-carousel" class="relative" data-carousel="static">
+          <div id="controls-carousel" class="relative">
             <!-- Carousel wrapper -->
-            <div class="relative h-carousel overflow-hidden z-0" id="testi-parent"></div>
+            <div class="relative" id="testi-parent"></div>
             <!-- All Items -->
             <!-- Slider controls -->
             <button type="button"
-              class="absolute top-0 left-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none"
-              data-carousel-prev>
+              class="absolute top-0 left-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none prev-btn">
               <span class="">
                 <iconify-icon icon="material-symbols:chevron-left-rounded" width="30" height="30"></iconify-icon>
                 <span class="sr-only">Previous</span>
@@ -609,8 +607,7 @@
             </button>
 
             <button type="button"
-              class="absolute top-0 right-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none"
-              data-carousel-next>
+              class="absolute top-0 right-0 z-30 flex items-center justify-center h-full cursor-pointer group focus:outline-none next-btn">
               <span class="">
                 <iconify-icon icon="material-symbols:chevron-right-rounded" width="30" height="30"></iconify-icon>
                 <span class="sr-only">Next</span>
@@ -640,7 +637,7 @@
                 icon="ic:baseline-whatsapp" width="22" height="22"></iconify-icon>&nbsp; 0896 3087 3931 </button>
             <button type="button"
               class="text-darkcolor bg-white font-medium  rounded-xl w-3/4 py-4 mr-2 mb-2 focus:outline-none flex items-center  justify-center text-center hover:bg-blue-200 hover:text-sky-500"><iconify-icon
-                icon="mdi:gmail" width="22" height="22"></iconify-icon>&nbsp; elservice@gmail.com </button>
+                icon="mdi:gmail" width="22" height="22"></iconify-icon>&nbsp; servirn.official@gmail.com </button>
           </div>
           <div class="space-x-3">
             <button class="bg-darkcolor  rounded-xl text-white">
@@ -682,7 +679,7 @@
               <label for="email" class="block mb-2 text-sm font-semibold text-gray-900 ">Email</label>
               <input type="email" id="email"
                 class=" border-2 border-gray-200 text-gray-900 text-sm rounded-lg focus:ring-darkcolor focus:border-darkcolor block w-full px-3.5 py-2.5"
-                placeholder="elservice@gmail.com" required>
+                placeholder="servirn.official@gmail.com" required>
             </div>
             <div class="mb-6">
               <label for="phone" class="block mb-2 text-sm font-semibold text-gray-900 ">No Telepon</label>
@@ -777,7 +774,7 @@
         <h2 class="mb-5 text-lg font-bold text-white">Kontak</h2>
         <ul class="text-white ">
           <li class="mb-4">
-            <a href="#" class="hover:underline">elservice@gmail.com</a>
+            <a href="#" class="hover:underline">servirn.official@gmail.com</a>
           </li>
           <li class="mb-4">
             <a href="#" class="hover:underline">Instagram</a>
@@ -812,7 +809,7 @@
 
     <hr class="mt-6 border-gray-200 sm:mx-auto container w-full" />
     <div class="container mx-auto px-2 md:px-4 py-10 bg-darkcolor md:flex md:items-center md:justify-between">
-      <img src="../../assets/brand2.png" class="w-32" alt="brand">
+      <img src="../../assets/blackbrand.png" class="w-32" alt="brand">
       <h4 class="text-white ">Copyright @2023 elseservice</h4>
       <div class="flex mt-4 space-x-3 sm:justify-center md:mt-0">
         <button class="bg-white  rounded-xl text-darkcolor">
@@ -845,7 +842,7 @@
       </div>
   </a>
 
-  <script src="../../dist/js/main.js"></script>
+  <script type="module" src="../../dist/js/main.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.min.js"></script>
   <script src="https://code.iconify.design/iconify-icon/1.0.3/iconify-icon.min.js"></script>
 </body>
